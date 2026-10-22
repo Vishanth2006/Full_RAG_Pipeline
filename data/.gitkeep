@@ -1,0 +1,2 @@
+# This directory holds runtime data (SQLite database, uploads).
+# It is intentionally excluded from Git via .gitignore.

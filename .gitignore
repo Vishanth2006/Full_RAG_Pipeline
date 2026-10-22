@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Data directories (generated at runtime)
+data/*.db
+data/*.sqlite
+
+# ChromaDB persistence
+chroma_data/
+
+# Uploaded PDFs (do not commit user data)
+uploads/
+
+# Model cache
+.cache/
+model_cache/
+sentence_transformers_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
